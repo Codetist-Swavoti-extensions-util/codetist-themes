@@ -1,0 +1,17 @@
+{
+  "name": "swavoti-minimal-dark",
+  "displayName": "Swavoti Minimal Dark",
+  "version": "1.0.0",
+  "publisher": "Codetist",
+  "type": "theme",
+  "contributes": {
+    "themes": [
+      {
+        "id": "minimal-dark",
+        "label": "Minimal Dark",
+        "type": "dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
