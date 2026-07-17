@@ -1,0 +1,42 @@
+{
+  "name": "Minimal Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#18181b",
+    "editor.foreground": "#d4d4d8",
+    "editor.lineHighlightBackground": "#27272a",
+    "editorCursor.foreground": "#10b981",
+    
+    "sideBar.background": "#09090b",
+    "sideBar.foreground": "#a1a1aa",
+    "sideBar.border": "#27272a",
+    
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ffffff",
+    
+    "tab.activeBackground": "#18181b",
+    "tab.inactiveBackground": "#09090b",
+    "tab.activeBorderTop": "#10b981"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage", "modifier"],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.template"],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    }
+  ]
+}
